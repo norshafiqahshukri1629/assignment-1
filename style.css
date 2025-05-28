@@ -11,7 +11,7 @@
     --white : #efefef;
 }
 
-body {
+.body {
     font-family: "DM Sans", sans-serif;
     color: var(--primary);
 }
