@@ -1,94 +1,68 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Posy Petal Boutique</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="main">
-        <div class="container">
-            <nav>
-                <img src=".../logo.jpg" alt="" class="logo">
-                <ul class="nav-list">
-                     <li><a href="about.html">About</a></li>
-                    <li><a href="index.html">Homepage</a></li>
-                    <li><a href="step.html">Step by Step guide</a></li>
-                    <li><a href="inspiration.html">Inspiration & Resources</a></li>
-                    <li><button class="btn btn-secondary">202-505-3333</button></li>
-                </ul>
-                <img src=".../menu botton.jpg" alt="" class="menu btn">
-            </nav>
-     
-        </div class="main-content">
-        <h1 class="intro-heading">hello everyone</h1>
-        <h1 class="main-heading">my name is Norshafiqah Binti Ahmad Shukri</h1>
-        <p>
-            I am 22 years old , and I am student of Bachelor's Degree of New Media Communication in Unimap
-        </p>
-        <button class="btn btn-primary">Get started</button>
-        </div>
-    </section>
-   
-                </p>
+    <header>
+        <h1>Posy Petal Boutique</h1>
+        <nav>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Shop By</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="intro">
+            <h2>New Arrivals</h2>
+            <p>Discover the latest additions to our boutique collection.</p>
+            <button class="btn">Shop Now</button>
+        </section>
 
-            </div>
-
-            </section>
-
-        </div>
-    </section>
-
-    <section id="Homepage">
-        <div class="container">
-        <div class="homepage-content">
-        </div>
-
-        <div class="Homepage-image">
-            <img src=".../blue quote.jpg" alt=""/>
-        </div>
-
-
-            <h4>Homepage</h4>
-            <h1>
-                "The Path to Success: Achieving Your Career Dreams"
-            </h1>
-            <p> A **lecturer** plays a vital role in higher education by sharing knowledge, guiding students, 
-                and fostering intellectual growth. They conduct research, deliver lectures, 
-                and help shape future professionals in their respective fields. With expertise and dedication,
-                lecturers inspire students to think critically, develop skills, and pursue academic excellence.
-                I aspire to become a dedicated <strong>Lecturer</strong>shaping the minds of future generations
-                and inspiring students to reach their potential.</p> 📚✨</p>
-                <button class="btn btn-primary">My Future Carrier</button>
-
-                <img src=".../lecture 2.jpg" alt="Lecturer Teaching" width="500">
-            </section>
-
-            <footer>
-                <div class="container">
-                    <ul class="footer-links">
-                        <li><a href="index.html">Homepage</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="step.html">Step by Step Guide</a></li>
-                        <li><a href="inspiration.html">Inspiration & Resources</a></li>
-
-                    </ul>
-                    <img src=".../logo.jpg"  alt="" class="footerLogo"/>
-                    <p>My Homepage</p> 
+        <section class="products">
+            <h2>See What's New</h2>
+            <div class="product-grid">
+                <div class="product polaroid">
+                    <img src="uploaded-image.jpg" alt="Product 1">
+                    <p>Cushion - $29.00 AUD</p>
                 </div>
-            </footer> 
-            
-            
-    <script>
-        const navBtn = document.querySelector('.menu-btn')
-        const navList = document.querySelector('.nav-list')
+                <div class="product polaroid">
+                    <img src="uploaded-image.jpg" alt="Product 2">
+                    <p>Sparkle Glass - $39.00 AUD</p>
+                </div>
+                <div class="product polaroid">
+                    <img src="uploaded-image.jpg" alt="Product 3">
+                    <p>Pearl Hairpin - $35.00 AUD</p>
+                </div>
+                <div class="product polaroid">
+                    <img src="uploaded-image.jpg" alt="Product 4">
+                    <p>Dried Flower Bouquet - $19.00 AUD</p>
+                </div>
+            </div>
+        </section>
 
-        navBtn.addEventListener("click", function () {
-            navList.classList.toggle("active");
+        <section class="newsletter">
+            <h2>Join the List</h2>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
 
-        }
+    <footer>
+        <p>&copy; 2025 Posy Petal Boutique | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+
 
     
 </body>
